@@ -30,7 +30,7 @@ def dtypeconversion(data):
  return data 
  
  
-def main():
+def main(df):
     df=dtypeconversion(df) #df is your dataframe which needs dtype conversion.
     colnames = dtypes.index
     types = [i.name for i in df.dtypes.values]
